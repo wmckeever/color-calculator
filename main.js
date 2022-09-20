@@ -16,11 +16,17 @@ console.log(`Player one chose: ${color2}`);
 
 if (color1 === "red" && color2 === "blue")
 console.log("Your color combination is Purple!");
+if (color1 === "blue" && color2 === "red")
+console.log("Your color combination is Purple!");
 
 if (color1 === "red" && color2 === "yellow" )
   console.log("Your color combination is Orange!");
+if (color1 === "yellow" && color2 === "red" )
+  console.log("Your color combination is Orange!");
 
 if(color1 === "blue" && color2 === "yellow" )
+  console.log("Your color combination is Green!");
+if(color1 === "yellow" && color2 === "blue" )
   console.log("Your color combination is Green!");
 
 // If participant chooses deconstruct the following takes place
@@ -39,6 +45,6 @@ if (color3 === "green")
 console.log("Your color combination Blue and Yellow!");
 
 } else {
-  (color1 !== typeof "string" || color2 !== typeof "string")
+  color1 !== typeof "string" || color2 !== typeof "string"
 }
   console.log("Error");
