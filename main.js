@@ -1,6 +1,6 @@
 const prompt = require('prompt-sync')({sigint: true});
 
-let colorDecision = prompt("Thank you for choosing to use the WDI 101 Color Calculator. Please choose to combine (c) or desonstruct (d)");
+let colorDecision = prompt("Thank you for choosing to use the WDI 101 Color Calculator. Please choose to combine (c) or desonstruct (d)").toLowerCase();
 
 console.log(`You chose: ${colorDecision}.`)
 
