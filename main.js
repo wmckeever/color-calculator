@@ -46,5 +46,6 @@ console.log("Your color combination Blue and Yellow!");
 
 } else {
   color1 !== typeof "string" || color2 !== typeof "string"
+  color1 === color2
 }
   console.log("Error");
